@@ -28,8 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnClick=findViewById(R.id.btnClick);
-        imgPic=findViewById(R.id.imgPic);
-        btnClick.setOnClickListener(new View.OnClickListener() {
+        imgPic=findViewById(R.id.imgPic);btnClick.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 checkPermission();
